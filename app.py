@@ -10,13 +10,13 @@ model = load_model('deployment_11102020')
 def run():
 
     from PIL import Image
-    image_hospital = Image.open('hospital.jpg')
+    #image_hospital = Image.open('hospital.jpg')
 
-    st.sidebar.info('This app is created using PyCaret and Streamlit')
-    st.sidebar.success('https://youtube.com/KunaalNaik')
-    st.sidebar.image(image_hospital)
+    #st.sidebar.info('This app is created using PyCaret and Streamlit')
+    #st.sidebar.success('https://youtube.com/KunaalNaik')
+    #st.sidebar.image(image_hospital)
 
-    st.title('Insurance Application')
+    st.title('Insurance Predictor App - Yang Bo')
 
     # Capture
     age = st.number_input('Age', min_value = 1, max_value = 100, value = 21)
